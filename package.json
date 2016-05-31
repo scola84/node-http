@@ -1,0 +1,16 @@
+{
+  "name": "@scola/http",
+  "version": "0.0.0",
+  "description": "HTTP Helpers",
+  "repository": "github:scola84/node-http",
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "./dist/http.js",
+  "jsnext:main": "index.js",
+  "devDependencies": {
+    "rollup": "^0.26.3"
+  },
+  "scripts": {
+    "build": "rollup -i index.js -o ./dist/http.js -f cjs"
+  }
+}
